@@ -21,12 +21,15 @@ select {
   padding: 10px;
   font-size: 15px;
 }
+a {
+  text-decoration: none;
+}
 
 .container {
   max-width: 500px;
   display: block;
   margin: 0 auto;
-  background: #d8dbe6;
+  background-image: url("https://images.pexels.com/photos/4334253/pexels-photo-4334253.jpeg?auto=compress&cs=tinysrgb&w=600");
   border-radius: 10px;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -36,7 +39,7 @@ select {
   margin: 20px 0;
   justify-content: space-between;
   padding: 20px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.7);
 }
 .city:last-child {
   border: none;
@@ -51,6 +54,6 @@ select {
   line-height: 10px;
 }
 .date {
-  opacity: 0.4;
+  opacity: 0.5;
   font-size: 15px;
 }
