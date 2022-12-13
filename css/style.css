@@ -1,7 +1,9 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 h1 {
+  font-family: Roboto;
+  font-size: 30px;
   text-align: center;
 }
 h2 {
@@ -9,9 +11,11 @@ h2 {
   font-size: 23px;
 }
 footer {
+  color: #395599;
   text-align: center;
   line-height: 60px;
-  font-size: 13px;
+  font-size: 25px;
+  font-family: Tangerine;
 }
 select {
   display: block;
@@ -50,7 +54,6 @@ a {
 }
 .time small {
   font-size: 15px;
-  vertical-align: middle;
   line-height: 10px;
 }
 .date {
